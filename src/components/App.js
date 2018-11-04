@@ -28,7 +28,7 @@ const App = ({ currentUser, currentChannel }) => (
       <MetaPanel />
     </Grid.Column>
   </Grid>
-)
+);
 
 const mapStateToProps = state => ({
   currentUser: state.user.currentUser,
